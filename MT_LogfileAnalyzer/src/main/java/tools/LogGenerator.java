@@ -218,10 +218,10 @@ public class LogGenerator {
 
     public static void main(String[] args) {
         // Standardwerte
-        int numFiles = 5;
+        int numFiles = 10;
         String prefix = "app";
         LocalDate startDate = LocalDate.now().minusDays(numFiles -1); // Standard: Letzte 'numFiles' Tage bis heute
-        int minKB = 10;
+        int minKB = 50;
         int maxKB = 100;
 
         // --- Argument-Verarbeitung ---
